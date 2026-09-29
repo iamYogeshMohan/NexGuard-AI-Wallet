@@ -1,0 +1,52 @@
+{
+  "model_name": "NexGuard-XGBoost-TriState",
+  "evaluation_timestamp": "2026-09-23T03:19:03.541533+00:00",
+  "total_test_samples": 1500,
+  "classes": [
+    "ALLOW",
+    "VERIFY",
+    "BLOCK"
+  ],
+  "accuracy": 1.0,
+  "precision_macro": 1.0,
+  "precision_weighted": 1.0,
+  "recall_macro": 1.0,
+  "recall_weighted": 1.0,
+  "f1_score_macro": 1.0,
+  "f1_score_weighted": 1.0,
+  "confusion_matrix": [
+    [
+      1213,
+      0,
+      0
+    ],
+    [
+      0,
+      169,
+      0
+    ],
+    [
+      0,
+      0,
+      118
+    ]
+  ],
+  "isolation_forest_anomaly_f1": 0.8119,
+  "feature_importances": {
+    "geo_speed_kmph": 0.2161,
+    "biometric_confidence": 0.185,
+    "device_trust_score": 0.1741,
+    "amount": 0.1562,
+    "failed_logins": 0.1251,
+    "z_score": 0.0875,
+    "is_impossible_travel": 0.0487,
+    "beneficiary_trust_score": 0.0072,
+    "merchant_category_risk": 0.0,
+    "is_vpn_tor": 0.0,
+    "is_private_ip": 0.0,
+    "is_new_beneficiary": 0.0,
+    "concurrent_sessions": 0.0,
+    "hour_of_day": 0.0,
+    "is_off_hours": 0.0
+  }
+}
